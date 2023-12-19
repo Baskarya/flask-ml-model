@@ -16,12 +16,10 @@ from flask import Flask, render_template, request, jsonify
 from sklearn.metrics.pairwise import cosine_similarity
 from tensorflow.keras.models import load_model
 from datetime import datetime
-from gevent.pywsgi import WSGIServer
 
 import firebase_admin
 from firebase_admin import credentials, storage
 
-load_dotenv()
 cred = credentials.Certificate('credentials/serviceAccountKey.json')
 firebase_admin.initialize_app(cred, {'storageBucket': 'baskaryaapp.appspot.com'})
 
