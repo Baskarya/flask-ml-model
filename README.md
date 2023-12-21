@@ -1,8 +1,7 @@
 <div align="center">
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
-<br>flask-ml-model</h1>
-<h3>◦ HTTPStatus Exception: 404</h3>
+<br>BASKARYA FLASK ML MODEL</h1>
 <h3>◦ Developed with the software and tools below.</h3>
 
 <p align="center">
@@ -45,13 +44,30 @@
 
 ## 📍 Overview
 
-HTTPStatus Exception: 404
+Leveraging machine learning capabilities. The file images to be used for the machine learning operation. Input a batik images, then get recommendation for similar batik. 
 
 ---
 
 ## 📦 Features
 
-HTTPStatus Exception: 404
+- **Machine Learning Feature:** Provide an endpoint for machine learning analysis of batik images, enhancing the platform's capabilities.
+
+---
+
+## Documentation
+
+For more detail API Documentation, [Documentation](https://documenter.getpostman.com/view/25932120/2s9YkkfNgo#928f8e75-8575-4d6a-b4d7-9809e002a748).
+
+`https://documenter.getpostman.com/view/25932120/2s9YkkfNgo#928f8e75-8575-4d6a-b4d7-9809e002a748`
+
+
+---
+
+## API Service Endpoint
+
+`https://ml-baskarya-veuznuhx2a-et.a.run.app/`
+[Endpoint](https://ml-baskarya-veuznuhx2a-et.a.run.app/).
+
 
 ---
 
@@ -60,11 +76,8 @@ HTTPStatus Exception: 404
 
 ```sh
 └── flask-ml-model/
-    ├── .ipynb_checkpoints/
-    │   └── batik1-checkpoint.ipynb
     ├── Dockerfile
     ├── app.py
-    ├── batik1.ipynb
     ├── credentials/
     │   └── serviceAccountKey.json
     ├── image_features.joblib
@@ -73,8 +86,21 @@ HTTPStatus Exception: 404
 
 ```
 
----
+## Machine Learning Feature
 
+### Endpoint
+
+`POST http://{{endpoint}}/api/machine-learning`
+
+### Request
+
+- **Method:** POST
+- **URL:** `http://{{endpoint}}/api/machine-learning`
+- **Body:**
+  - `file` (Form Data): Image file for machine learning analysis.
+
+
+---
 
 ## ⚙️ Modules
 
@@ -83,17 +109,8 @@ HTTPStatus Exception: 404
 | File                                                                                           | Summary                   |
 | ---                                                                                            | ---                       |
 | [Dockerfile](https://github.com/Baskarya/flask-ml-model/blob/main/Dockerfile)             | HTTPStatus Exception: 404 |
-| [batik1.ipynb](https://github.com/Baskarya/flask-ml-model/blob/main/batik1.ipynb)         | HTTPStatus Exception: 404 |
 | [requirements.txt](https://github.com/Baskarya/flask-ml-model/blob/main/requirements.txt) | HTTPStatus Exception: 404 |
 | [app.py](https://github.com/Baskarya/flask-ml-model/blob/main/app.py)                     | HTTPStatus Exception: 404 |
-
-</details>
-
-<details closed><summary>.ipynb_checkpoints</summary>
-
-| File                                                                                                                            | Summary                   |
-| ---                                                                                                                             | ---                       |
-| [batik1-checkpoint.ipynb](https://github.com/Baskarya/flask-ml-model/blob/main/.ipynb_checkpoints/batik1-checkpoint.ipynb) | HTTPStatus Exception: 404 |
 
 </details>
 
@@ -155,17 +172,6 @@ cd flask-ml-model
 pip install -r requirements.txt
 ```
 
-### 🤖 Running flask-ml-model
-
-```sh
-jupyter nbconvert --execute notebook.ipynb
-```
-
-### 🧪 Tests
-```sh
-pytest notebook_test.py
-```
-
 ---
 
 
@@ -225,7 +231,7 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 
 - List any resources, contributors, inspiration, etc. here.
 
-[**Return**](#Top)
+[**Back to Top**](#Top)
 
 ---
 
