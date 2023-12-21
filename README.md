@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
-<br>CAPSTONE-FLASKAPI</h1>
+<br>flask-ml-model</h1>
 <h3>◦ HTTPStatus Exception: 404</h3>
 <h3>◦ Developed with the software and tools below.</h3>
 
@@ -17,10 +17,10 @@
 <img src="https://img.shields.io/badge/Flask-000000.svg?style=flat&logo=Flask&logoColor=white" alt="Flask" />
 <img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON" />
 </p>
-<img src="https://img.shields.io/github/license/Routinee66/capstone-flaskapi?style=flat&color=5D6D7E" alt="GitHub license" />
-<img src="https://img.shields.io/github/last-commit/Routinee66/capstone-flaskapi?style=flat&color=5D6D7E" alt="git-last-commit" />
-<img src="https://img.shields.io/github/commit-activity/m/Routinee66/capstone-flaskapi?style=flat&color=5D6D7E" alt="GitHub commit activity" />
-<img src="https://img.shields.io/github/languages/top/Routinee66/capstone-flaskapi?style=flat&color=5D6D7E" alt="GitHub top language" />
+<img src="https://img.shields.io/github/license/Baskarya/flask-ml-model?style=flat&color=5D6D7E" alt="GitHub license" />
+<img src="https://img.shields.io/github/last-commit/Baskarya/flask-ml-model?style=flat&color=5D6D7E" alt="git-last-commit" />
+<img src="https://img.shields.io/github/commit-activity/m/Baskarya/flask-ml-model?style=flat&color=5D6D7E" alt="GitHub commit activity" />
+<img src="https://img.shields.io/github/languages/top/Baskarya/flask-ml-model?style=flat&color=5D6D7E" alt="GitHub top language" />
 </div>
 
 ---
@@ -33,7 +33,7 @@
 - [⚙️ Modules](#modules)
 - [🚀 Getting Started](#-getting-started)
     - [🔧 Installation](#-installation)
-    - [🤖 Running capstone-flaskapi](#-running-capstone-flaskapi)
+    - [🤖 Running flask-ml-model](#-running-flask-ml-model)
     - [🧪 Tests](#-tests)
 - [🛣 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
@@ -59,7 +59,7 @@ HTTPStatus Exception: 404
 ## 📂 Repository Structure
 
 ```sh
-└── capstone-flaskapi/
+└── flask-ml-model/
     ├── .ipynb_checkpoints/
     │   └── batik1-checkpoint.ipynb
     ├── Dockerfile
@@ -140,14 +140,14 @@ Please refer to [requirements.txt](https://github.com/Baskarya/flask-ml-model/bl
 
 ### 🔧 Installation
 
-1. Clone the capstone-flaskapi repository:
+1. Clone the flask-ml-model repository:
 ```sh
 git clone https://github.com/Baskarya/flask-ml-model
 ```
 
 2. Change to the project directory:
 ```sh
-cd capstone-flaskapi
+cd flask-ml-model
 ```
 
 3. Install the dependencies:
@@ -155,7 +155,7 @@ cd capstone-flaskapi
 pip install -r requirements.txt
 ```
 
-### 🤖 Running capstone-flaskapi
+### 🤖 Running flask-ml-model
 
 ```sh
 jupyter nbconvert --execute notebook.ipynb
