@@ -7,7 +7,6 @@
 <p align="center">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white" alt="TensorFlow" />
 <img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikitlearn" />
-<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter" />
 <img src="https://img.shields.io/badge/Gunicorn-499848.svg?style=flat&logo=Gunicorn&logoColor=white" alt="Gunicorn" />
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python" />
 
@@ -90,12 +89,12 @@ For more detail API Documentation, [Documentation](https://documenter.getpostman
 
 ### Endpoint
 
-`POST http://{{endpoint}}/api/machine-learning`
+`POST http://{{endpoint}}/api/ml`
 
 ### Request
 
 - **Method:** POST
-- **URL:** `http://{{endpoint}}/api/machine-learning`
+- **URL:** `http://{{endpoint}}/api/ml`
 - **Body:**
   - `file` (Form Data): Image file for machine learning analysis.
 
